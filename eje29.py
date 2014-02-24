@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#!encoding: UTF-8
 from math import *
 
 print "Introduzca la cantidad de euros: "
@@ -23,7 +24,23 @@ euros = euros % 2;
 mon1 = euros;
 
 print "La conversión a billetes y monedas son:"
-print 
-if ((mitad % 2) == 1):
+if (bil500 != 0):
+	print bil500, "billetes de 500€" 
+if (bil200 != 0):
+	print bil200, "billetes de 200€" 
+if (bil100 != 0):
+	print bil100, "billetes de 100€" 
+if (bil500 != 0):
+	print bil50, "billetes de 50€" 
+if (bil20 != 0):
+	print bil20, "billetes de 20€" 
+if (bil10 != 0):
+	print bil10, "billetes de 10€" 
+if (bil5 != 0):
+	print bil5, "billetes de 5€" 
+if (mon2 != 0):
+	print mon2, "monedas de 2€" 
+if (mon1 != 0):
+	print mon1, "monedas de 1€" 
 print "\n"
 
